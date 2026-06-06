@@ -2,13 +2,6 @@
 * {
   box-sizing: border-box;
 }
-@media (max-width: 600px) {
-  * {
-    font-size: 0.5rem;
-    padding: 0.8rem;
-    margin: 0.8rem;
-  }
-}
 nav {
     /*font-family: "Segoe UI", Arial, sans-serif;*/
     padding:  15px;
