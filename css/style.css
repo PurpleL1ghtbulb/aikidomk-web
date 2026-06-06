@@ -4,10 +4,9 @@
 }
 @media (max-width: 600px) {
   * {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     padding: 0.8rem;
     margin: 0.8rem;
-    background-color: aqua;
   }
 }
 nav {
