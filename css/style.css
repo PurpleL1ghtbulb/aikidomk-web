@@ -60,6 +60,7 @@ bold {
 li{
     font-size: 20px;
     color: rgb(105, 2, 2);
+    text-align: left;
 }
 ul{
     width: fit-content;
