@@ -1,3 +1,8 @@
+
+* {
+  box-sizing: border-box;
+}
+
 nav {
     /*font-family: "Segoe UI", Arial, sans-serif;*/
     padding:  15px;
@@ -12,11 +17,19 @@ nav {
     z-index: 10000;
 }
 main {
-    margin-top: 150px;
+    margin-top: 170px;
     font-family: "Segoe UI", Arial, sans-serif;
 }
 body {
     background-color:aliceblue;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
 }
 section{
     text-align: center;
@@ -32,6 +45,17 @@ section{
 section:hover {
   transform: translateY(-4px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+footer{
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: darkgray;
+    color: black;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    width: 100%;
 }
 h2{
     color: rgb(105, 2, 2);
