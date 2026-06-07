@@ -39,11 +39,10 @@ nav {
         height: 120px;
     }
     main {
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .mobile-break{
-        display: block;
-        height: 0;
+        display: inline;
     }
 }
 main {
