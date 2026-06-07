@@ -27,16 +27,23 @@ nav {
     align-self: left;
     transform: translateX(-10px);
 }
-@media (max-width: 600px) {
+.mobile-break{
+    display: none;
+}
+@media (max-width: 600px) { /*for mobile phones only*/
     nav{
         position: static;
         flex-direction: column;
     }
     .nav-logo{
-        height: 100px;
+        height: 120px;
     }
     main {
         margin-top: 100px;
+    }
+    .mobile-break{
+        display: block;
+        height: 0;
     }
 }
 main {
