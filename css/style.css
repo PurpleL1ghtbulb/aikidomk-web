@@ -83,6 +83,7 @@ p{
     color: rgb(105, 2, 2);
     font-size: 20px;
     text-align: center;
+    padding: 0 70px;
 }
 bold {
     font-weight: bold;
@@ -160,5 +161,8 @@ section a{
     }
     .desktop-only{
         display: none;
+    }
+    p{
+        padding: 0;
     }
 }
