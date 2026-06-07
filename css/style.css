@@ -136,6 +136,9 @@ ul{
         position: static;
         flex-direction: column;
     }
+    section{
+        width: 90%;
+    }
     .nav-logo{
         height: 150px;
         transform: none;
