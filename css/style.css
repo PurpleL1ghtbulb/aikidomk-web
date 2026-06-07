@@ -2,8 +2,11 @@
 * {
   box-sizing: border-box;
 }
-
-
+html{
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
 nav {
     /*font-family: "Segoe UI", Arial, sans-serif;*/
     padding: 15px;
