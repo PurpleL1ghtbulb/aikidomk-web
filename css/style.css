@@ -25,7 +25,10 @@ nav {
     height: 150px;
     width: auto;
     align-self: left;
-    transform: translateX(-10px);
+    transform: translateX(-120px);
+}
+.title{
+  transform: translateX(-100px);  
 }
 .mobile-break{
     display: none;
@@ -37,6 +40,10 @@ nav {
     }
     .nav-logo{
         height: 120px;
+        transform: none;
+    }
+    .title{
+        transform: none;  
     }
     main {
         margin-top: 0px;
