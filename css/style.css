@@ -33,25 +33,7 @@ nav {
 .mobile-break{
     display: none;
 }
-@media (max-width: 600px) { /*for mobile phones only*/
-    nav{
-        position: static;
-        flex-direction: column;
-    }
-    .nav-logo{
-        height: 120px;
-        transform: none;
-    }
-    .title{
-        transform: none;  
-    }
-    main {
-        margin-top: 0px;
-    }
-    .mobile-break{
-        display: inline;
-    }
-}
+
 main {
     margin-top: 180px;
     font-family: "Segoe UI", Arial, sans-serif;
@@ -128,3 +110,24 @@ ul{
     margin-right: auto; 
 }
 
+
+
+@media (max-width: 600px) { /*for mobile phones only*/
+    nav{
+        position: static;
+        flex-direction: column;
+    }
+    .nav-logo{
+        height: 120px;
+        transform: none;
+    }
+    .title{
+        transform: none;  
+    }
+    main {
+        margin-top: 0px;
+    }
+    .mobile-break{
+        display: inline;
+    }
+}
