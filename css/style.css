@@ -30,6 +30,7 @@ main {
     font-family: "Segoe UI", Arial, sans-serif;
 }
 body {
+    min-height: 100vh;
     background-color:aliceblue;
     height: 100%;
     display: flex;
