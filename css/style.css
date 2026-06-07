@@ -21,19 +21,6 @@ nav {
     z-index: 10000;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
 }
-.nav-logo {
-    height: 150px;
-    width: auto;
-    align-self: left;
-    transform: translateX(-120px);
-}
-.title{
-  transform: translateX(-100px);  
-}
-.mobile-break{
-    display: none;
-}
-
 main {
     margin-top: 180px;
     font-family: "Segoe UI", Arial, sans-serif;
@@ -95,10 +82,7 @@ p{
 bold {
     font-weight: bold;
 }
-.highlight{
-    color: rgb(105, 2, 2);
-    font-weight: bold;
-}
+
 li{
     font-size: 20px;
     color: rgb(105, 2, 2);
@@ -110,9 +94,35 @@ ul{
     margin-right: auto; 
 }
 
+.nav-logo {
+    height: 150px;
+    width: auto;
+    align-self: left;
+    transform: translateX(-120px);
+}
+.title{
+  transform: translateX(-100px);  
+}
+.mobile-break{
+    display: none;
+}
+.highlight{
+    color: rgb(105, 2, 2);
+    font-weight: bold;
+}
+.highlight-big{
+    color: rgb(105, 2, 2);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
 
 
 @media (max-width: 600px) { /*for mobile phones only*/
+    html{
+        font-size: 80%;
+    }
     nav{
         position: static;
         flex-direction: column;
