@@ -85,10 +85,6 @@ p{
     text-align: center;
     padding: 0 70px;
 }
-bold {
-    font-weight: bold;
-}
-
 li{
     font-size: 20px;
     color: rgb(105, 2, 2);
@@ -144,15 +140,10 @@ section a{
         font-size: 80%;
     }
     nav{
-        position: static;
         flex-direction: column;
     }
     .nav-logo{
         height: 150px;
-        transform: none;
-    }
-    .title{
-        transform: none;  
     }
     main {
         margin-top: 0px;
