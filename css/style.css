@@ -126,15 +126,13 @@ ul{
 .more-padding{
     padding: 40 40;
 }
+body a{
+    color: rgb(160, 0, 0);
+}
 footer a{
     color: black;
 }
-section a{
-    color: rgb(160, 0, 0);
-}
-a[href^="mailto"] {
-    white-space: nowrap;
-}
+
 
 
 
